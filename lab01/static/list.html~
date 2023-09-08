@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<title>g11_kuznetsov list_page</title>
+	</head>
+	<body>
+		<p>
+			<a href="/static/index.html">home list</a>
+		</p>
+		<p>
+			<a href="/static/page.html">content page</a>
+		</p>
+		<h3>Lists</h3>
+		<ol type="1">
+			<li>First el</li>
+			<li>Second el</li>
+			<ol type="1">
+				<li>sublist first el</li>
+				<li>sublist second el</li>
+			</ol>
+			<li>Third el</li>
+		</ol>
+		<hr>
+		
+		<h3>List 1</h3>
+		<ol type="1">
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<li>Fourth el</li>
+		</ol>
+		<hr>
+		
+		<h3>List 2</h3>
+		<ol type="a">
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<li>Fourth el</li>
+		</ol>
+		<hr>	
+		
+		<h3>List 3</h3>
+		<ol type="A" start=5>
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<li>Fourth el</li>
+		</ol>
+		<hr>
+		
+		<h3>List 4</h3>
+		<ol type="I">
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<li>Fourth el</li>
+		</ol>
+		<hr>
+		
+		<h3>List 5</h3>
+		<ol type="i" start=5>
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<li>Fourth el</li>
+		</ol>
+		<hr>
+		
+		<h3>List 1</h3>
+		<ul>
+			<li>First el</li>
+			<li>Second el</li>
+			<li>Third el</li>
+			<ul>
+				<li>First el</li>
+				<li>Second el</li>
+				<li>Third el</li>
+				<ul>
+					<li>First el</li>
+					<li>Second el</li>
+					<li>Third el</li>
+					<li>Fourth el</li>
+				</ul>
+				<li>Fourth el</li>
+			</ul>
+			<li>Fourth el</li>
+		</ul>
+		<hr>
+	</body>
+</html>

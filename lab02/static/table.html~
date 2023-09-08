@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<title>g11_kuznetsov lab02</title>
+	</head>
+	<body>
+		<p>
+			<a href="/static/index.html">home page</a>
+		</p>
+		<p>
+			<a href="/static/page.html">content page</a> 
+		</p>
+		<p>
+			<a href="/static/list.html">list page</a>
+		</p>
+		<h3>Tables</h3>
+		<table>
+		
+		</table>
+		<hr/>
+		<h3>Table 1</h3>
+		<table border=1 style="border: 1px solid red">
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<td>a1</td>
+				<td>a2</td>
+				<td>a3</td>
+			</tr>
+			<tr>
+				<th>B</th>
+				<td>b1</td>
+				<td>b2</td>
+				<td>b3</td>
+			</tr>
+			<tr>
+				<th>C</th>
+				<td>c1</td>
+				<td>c2</td>
+				<td>c3</td>
+			</tr>
+		</table>
+		<hr>
+		<h3>Table 2</h3>
+		<table border=1 style="border: 1px solid red">
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<td rowspan=2>a1</td>
+				<td>a2</td>
+				<td>a3</td>
+			</tr>
+			<tr>
+				<th>B</th>
+				<td>b2</td>
+				<td>b3</td>
+			</tr>
+			<tr>
+				<th>C</th>
+				<td>c1</td>
+				<td colspan=2>c2</td>
+			</tr>
+		</table>
+		<hr>
+		<h3>Table 2</h3>
+		<table border=1 style="border: 1px solid red">
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<td rowspan=2>a1</td>
+				<td>a2</td>
+				<td>a3</td>
+			</tr>
+			<tr>
+				<th>B</th>
+				<td rowspan=2 colspan=2>b2</td>
+			</tr>
+			<tr>
+				<th colspan=2>C</th>
+			</tr>
+		</table>
+		<hr>
+	</body>
+</html>
