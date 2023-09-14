@@ -1,0 +1,13 @@
+prepare program
+```
+pip install python3-venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip install flask
+```
+run program
+```
+source .venv/bin/activate
+cd lab##
+flask run --host=0.0.0.0 # for --debug
+```
