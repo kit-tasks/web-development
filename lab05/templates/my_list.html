@@ -13,10 +13,10 @@
     <hr />
     <ol>
       {% for item in items %}
-      <!-- <form method="post" action="my_list">
-                <input type="submit" value="delete"/>
-                <input type="hidden" value="" />
-            </form> -->
+      <form method="post" action="/delete_element">
+        <input type="submit" value="delete" />
+        <input type="hidden" name="element" value="{{item}}" />
+      </form>
       <li>{{item}}</li>
       {% endfor %}
     </ol>

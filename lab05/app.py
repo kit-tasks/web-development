@@ -33,3 +33,11 @@ def my_list_post():
 
 def my_list_get():
     return render_template('my_list.html', items=my_items)
+
+
+@app.route('/delete_element', methods=["POST"])
+def delete_element():
+    element = request.form['element']
+    my_items.remove(element)
+    print(element)
+    return render_template('my_list.html', items=my_items)
