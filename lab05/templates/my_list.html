@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>g11_kuznetsov lab05 templates</title>
-</head>
-<body>
+  </head>
+  <body>
     <form method="post" action="/my_list">
-        <label>item:</label>
-        <input type="text" name="content" />		
-        <input type="submit" value="add item" />
+      <label>item:</label>
+      <input type="text" name="content" />
+      <input type="submit" value="add item" />
     </form>
-    <hr>
+    <hr />
     <ol>
-        {% for item in items %}
-            <!-- <form method="post" action="my_list">
+      {% for item in items %}
+      <!-- <form method="post" action="my_list">
                 <input type="submit" value="delete"/>
                 <input type="hidden" value="" />
             </form> -->
-            <li>
-                {{item}}
-            </li>  
-        {% endfor %}
+      <li>{{item}}</li>
+      {% endfor %}
     </ol>
-</body>
+  </body>
 </html>
